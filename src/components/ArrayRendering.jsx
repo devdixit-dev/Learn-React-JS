@@ -6,7 +6,7 @@ const ArrayRendering = () => {
 
   return (
     <div>
-      {array.map((num) => { return <p key={num}>{num}</p> })}
+      {array.map((num) => { return <p>{num}</p> })}
     </div>
   )
 }
